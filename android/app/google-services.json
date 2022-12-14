@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436300385401",
+    "project_id": "autos-booking-app",
+    "storage_bucket": "autos-booking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436300385401:android:1eb9287a61ee81c68e18a8",
+        "android_client_info": {
+          "package_name": "com.autosbookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436300385401-8lea4ms5h8m2r49ajsokkf3urrlilpnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-zvAy0nyoA4iwDSgrIhsZwE4aufzPmT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436300385401-8lea4ms5h8m2r49ajsokkf3urrlilpnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
