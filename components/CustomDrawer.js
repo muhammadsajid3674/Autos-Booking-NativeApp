@@ -7,7 +7,6 @@ import database from '@react-native-firebase/database';
 export default function CustomDrawer(props) {
 
     const [data, setData] = useState({});
-
     let getUser = () => {
         database()
             .ref('User')
@@ -16,6 +15,7 @@ export default function CustomDrawer(props) {
                 setData([...li])
             })
     }
+    console.log(data);
     console.log(data);
     useEffect(() => {
         getUser()
@@ -29,7 +29,7 @@ export default function CustomDrawer(props) {
                         source={avatar}
                         style={{ height: 80, width: 80, borderRadius: 40, marginBottom: 10 }}
                     />
-                    <Text style={{ fontSize: 20 }}>Sajid Shahid</Text>
+                    <Text style={{ fontSize: 20 }}>Saad Ali</Text>
                 </View>
                 <View style={{ paddingTop: 10, flex: 1 }}>
                     <DrawerItemList {...props} />

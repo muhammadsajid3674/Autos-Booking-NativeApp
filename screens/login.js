@@ -20,7 +20,7 @@ const Login = ({ navigation }) => {
 
     let pushData = () => {
         setLoading(true)
-        auth().signInWithEmailAndPassword(email, password)
+        auth().signInWithEmailAndPassword('saad@test.com', '123456')
         .then((res) => {
             console.log(res.user.uid);
             navigation.navigate('home');
