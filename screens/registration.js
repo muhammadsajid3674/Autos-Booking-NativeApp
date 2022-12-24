@@ -23,8 +23,6 @@ const Registration = ({ navigation }) => {
         setLoading(true)
         auth().createUserWithEmailAndPassword(email, password)
             .then((res) => {
-                console.log(modal);
-                console.log(res.user.uid);
                 modal.id = database().ref('User/').push().key;
                 database()
                     .ref(`User/${modal.id}`)

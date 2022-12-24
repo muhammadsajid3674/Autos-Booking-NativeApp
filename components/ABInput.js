@@ -4,12 +4,12 @@ import Icon from 'react-native-vector-icons/MaterialIcons'
 
 export function ABInput(props) {
 
-    let { icon, placeholder, label, typePassword, onChange } = props
+    let { icon, placeholder, label, typePassword, onChange, value } = props
 
     return (
         <View style={styles.inputContainer}>
             <Icon name={icon} size={20} color='#666' style={{ marginRight: 5 }} />
-            <TextInput onChangeText={onChange} secureTextEntry={typePassword} placeholder={placeholder} style={{ flex: 1, paddingVertical: 0 }} />
+            <TextInput value={value} onChangeText={onChange} secureTextEntry={typePassword} placeholder={placeholder} style={{ flex: 1, paddingVertical: 0 }} />
         </View>
     )
 }

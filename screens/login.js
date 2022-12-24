@@ -22,7 +22,6 @@ const Login = ({ navigation }) => {
         setLoading(true)
         auth().signInWithEmailAndPassword('saad@test.com', '123456')
         .then((res) => {
-            console.log(res.user.uid);
             navigation.navigate('home');
             setLoading(false)
             })
